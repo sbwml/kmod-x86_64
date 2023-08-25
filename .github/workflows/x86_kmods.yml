@@ -3,6 +3,8 @@ name: Sync kmods
 on:
   watch:
     types: started
+  repository_dispatch:
+    types: sync
 
 permissions:
   contents: write
