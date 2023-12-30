@@ -23,7 +23,7 @@ jobs:
 
     - name: Download kernel module
       run: |
-        kmod=$(curl -sk "https://api.github.com/repos/sbwml/builder/releases/latest" | grep "browser_download_url" | grep "x86_64-6.1" | tail -1 | awk '{print $2}' | sed 's/\"//g')
+        kmod=$(curl -sk "https://api.github.com/repos/sbwml/builder/releases/latest" | grep "browser_download_url" | grep "x86_64-6.6" | tail -1 | awk '{print $2}' | sed 's/\"//g')
         kmod_name=$(basename $kmod | sed 's/\.tar\.gz$//;s/x86_64-//')
         rm -rf $kmod_name
         curl -L $kmod -o $kmod_name.tar.gz --progress-bar
