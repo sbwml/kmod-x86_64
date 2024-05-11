@@ -58,14 +58,14 @@ SHA256sum: e86d81b8299b4123d49047a2a5c0e7b88a1581546085536dc5f991fd6faea943
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-x86
-Version: 15
+Version: 16
 Depends: libc, lm-sensors, ethtool
 Section: opt
 Architecture: x86_64
-Installed-Size: 7666
-Filename: autocore-x86_15_x86_64.ipk
-Size: 8429
-SHA256sum: 8dcebe7ecfb35a5427199664c2328562680670a9a55eb3bb9f995a25cc507be9
+Installed-Size: 7667
+Filename: autocore-x86_16_x86_64.ipk
+Size: 8427
+SHA256sum: aeb8abe50997989cf9a98d58676da697d03f6daf041cb529310a57cbbe0512f0
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
@@ -74,10 +74,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 47787
+Installed-Size: 47785
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48797
-SHA256sum: 827cd8950490c202359d8a14fe9acb68ba1cf42c5851aff152bc8711ef26fe31
+Size: 48793
+SHA256sum: f29563b64099d2c597d33949b711cbe87b55703c0fbf74558490122da75da266
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -2766,10 +2766,10 @@ Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-backlight, km
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3959572
+Installed-Size: 3959904
 Filename: kmod-drm-amdgpu_6.6.30-1_x86_64.ipk
-Size: 3870843
-SHA256sum: 9471e3675a9101b5d850bfabf2264f59fec75a552100a946d5a77da224587527
+Size: 3870138
+SHA256sum: 04b864df934cb51b0bbeb059d732aea592161e83c0f516d14537652a06ad4708
 Description:  Direct Rendering Manager (DRM) support for AMDGPU Cards
 
 Package: kmod-drm-buddy
@@ -5261,10 +5261,10 @@ Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 49896
+Installed-Size: 49899
 Filename: kmod-ikconfig_6.6.30-1_x86_64.ipk
-Size: 50752
-SHA256sum: 1e7cfa5206a7c882ebfca3d2ec61f0c23e4a2cdc59c20e6e23fd8715564b18b6
+Size: 50745
+SHA256sum: 43ac4c680c6addfc85b1d677daf6913b1cb6607c500e730626092e8f55595f64
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -8859,10 +8859,10 @@ Version: 6.6.30-1
 Depends: kernel (=6.6.30-1-1bad23dc0475a61d9bb9be004ffb2cde), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: x86_64
-Installed-Size: 451497
+Installed-Size: 451487
 Filename: kmod-oaf_6.6.30-1_x86_64.ipk
-Size: 447567
-SHA256sum: 4e1d1505de51e7f87331c23d34a88bca99a84acfd7563e1cc53eb81617d8a59e
+Size: 447641
+SHA256sum: 7cfccc59436e7bd4ed09059a04db517402e74960af4fe7c8373fa255f4d589da
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -13751,8 +13751,8 @@ ABIVersion: 129
 Architecture: x86_64
 Installed-Size: 85415
 Filename: libxdp129_1.2.9-1_x86_64.ipk
-Size: 85425
-SHA256sum: c4385401459d1d3e266f0d4a66154c0f501f6a1ecca1e6d0e53e682b09cb504e
+Size: 85400
+SHA256sum: 12745bcf755f4753f8e30653e7cc1987595401ea87c6db50097ed346135ef717
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -14137,10 +14137,10 @@ Depends: libc, libxdp129
 License: GPL-2.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 41248
+Installed-Size: 41249
 Filename: xdp-filter_1.2.9-1_x86_64.ipk
-Size: 41975
-SHA256sum: 0ac86301c5aa512ab23f15560541a0fba8ca45a52d03e224e57bdb6d69a5b21f
+Size: 42048
+SHA256sum: 435dcc54c3c0c431783839fea2d46f72cf4410620da049388c976f8fee10cea4
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -14152,10 +14152,10 @@ Depends: libc, libxdp129
 License: GPL-2.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 33504
+Installed-Size: 33503
 Filename: xdp-loader_1.2.9-1_x86_64.ipk
-Size: 34300
-SHA256sum: 91cd9f361b0a2b5a69fb336f8fd7937da6d06014b14025a154a3ef78d623ce18
+Size: 34283
+SHA256sum: e1d5bd97faddfa762f5771aa6683b5260859273b5f113a7ab7411ebd0caad958
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -14166,10 +14166,10 @@ Depends: libc, libxdp129, libpcap1
 License: GPL-2.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 42057
+Installed-Size: 42058
 Filename: xdpdump_1.2.9-1_x86_64.ipk
-Size: 42761
-SHA256sum: ddac88c4425b8aa24855f88c9f7fa74618d34a89689d7d3e5efb1656863370b2
+Size: 42754
+SHA256sum: cf3f8de1e5b9e39ef5c63ebb815fa5d3d321a66c54f74fca3d246f9602730781
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
