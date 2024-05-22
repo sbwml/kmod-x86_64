@@ -100,10 +100,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 47786
+Installed-Size: 47787
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48797
-SHA256sum: 8f9dc9741b8bc552dc5489d6daa24cb9a6890d684ede1737923cd88bcab8cdda
+Size: 48798
+SHA256sum: 5bdefb8cf8458e0a0db738699643a59e528a9de1070ec309ffd21b41ace11bc1
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -240,10 +240,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25553
+Installed-Size: 25737
 Filename: comgt_0.32-35_x86_64.ipk
-Size: 26316
-SHA256sum: 086f448ab92e346129b199cb26c05aaefa6f60c1488e216586a0a8f381f54783
+Size: 26515
+SHA256sum: 95976f4df52d80a80fa37d74bf9d63894f587b87f8765c3fb73b5b8d92d2a717
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -260,10 +260,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: x86_64
-Installed-Size: 170802
+Installed-Size: 169814
 Filename: dropbear_2022.82-6_x86_64.ipk
-Size: 171550
-SHA256sum: ff1b67c7b8fe7a61cbc3fd02de855ba16333cf4e4374c880a4a04a3b1eb10d88
+Size: 170497
+SHA256sum: d007e9d3cf9141da2489e8f1966e5fb3d03ad2300a208bc727e1ddb8b4794bab
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: dropbearconvert
@@ -277,10 +277,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: x86_64
-Installed-Size: 33423
+Installed-Size: 33403
 Filename: dropbearconvert_2022.82-6_x86_64.ipk
-Size: 34235
-SHA256sum: e0f723b1cc3b3c30ee7b66960c21f39a5e4119c8dd4336d78cf8f3efe3da5bec
+Size: 34215
+SHA256sum: c578577049f322372562e050d2b04b596fccee5d96a179ff3ba7952421fb5a64
 Description:  Utility for converting SSH keys
 
 Package: e100-firmware
@@ -357,10 +357,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 4425
+Installed-Size: 4460
 Filename: fwtool_2019-11-12-8f7fe925-1_x86_64.ipk
-Size: 5172
-SHA256sum: f2cebe74c5f2d403103850ed159d09cc154df915166259a5e71413530cfbc42b
+Size: 5211
+SHA256sum: d42a05ff734fe5fa83fd84a4f97ad94bc0b5dc62763c80eea75e47394fbe2a97
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: grub2-bios-setup
@@ -373,10 +373,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
-Installed-Size: 512451
+Installed-Size: 494476
 Filename: grub2-bios-setup_2.06-5_x86_64.ipk
-Size: 511083
-SHA256sum: 7c86a5b57972b295e0cbfee2d262bb2fc6285245150f2729d718ce66656e3f97
+Size: 493380
+SHA256sum: 0c896bd76ee972649b6a7cd4bec2fb7c36bed279fb8cf5b8414a2fd184d86219
 Description:  Set up images to bootable.
 
 Package: grub2-editenv
@@ -389,10 +389,10 @@ Section: utils
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
-Installed-Size: 137575
+Installed-Size: 133708
 Filename: grub2-editenv_2.06-5_x86_64.ipk
-Size: 138248
-SHA256sum: 6a7a0eda6e9b71416cab52b280e32788149333a792814cd7a62f4dc9aec3a37a
+Size: 134459
+SHA256sum: cff602c44b17d74b2ff38f0a3845dd4fc4ce414a2e5eb4415f38c223acd253ba
 Description:  Edit grub2 environment files.
 
 Package: grub2-efi
@@ -483,10 +483,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 1775
+Installed-Size: 1777
 Filename: ip6tables-mod-nat_1.8.8-2_x86_64.ipk
-Size: 2523
-SHA256sum: b0d2be86c9cc9463a3a1afc09c3a7e7a323e3a52f9640c82b372f86d842a0f11
+Size: 2524
+SHA256sum: 93ef8844b314e9232637635d922627a61f2bbe19da88d3c8efa583a7b8303bd3
 Description:  iptables extensions for IPv6-NAT targets.
 
 Package: ip6tables-nft
@@ -610,10 +610,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 15615
+Installed-Size: 15614
 Filename: iptables-mod-conntrack-extra_1.8.8-2_x86_64.ipk
-Size: 16384
-SHA256sum: 67c30c14cffd5450739b1f23d4ae287fd64f45ac33a194f1c22e06f02245c3fe
+Size: 16372
+SHA256sum: e0c063cca216127c6b3efdded65923aa86014a3f6186e9a6eff79ab6ac5fa50b
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -637,10 +637,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 13316
+Installed-Size: 13320
 Filename: iptables-mod-extra_1.8.8-2_x86_64.ipk
-Size: 14075
-SHA256sum: 5b5848fbbc0e6a795f6a5c252ab96d11d07427ee03c62ce67237f13c434ddc20
+Size: 14084
+SHA256sum: e61abc39eccba6a50dc609a7c37dfb5ff108c863665d4510ccaa54dad4419f96
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -661,10 +661,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 5793
+Installed-Size: 5784
 Filename: iptables-mod-filter_1.8.8-2_x86_64.ipk
-Size: 6579
-SHA256sum: c2492d183bc3254d70a535ac19516e6132fc64e1ef3e11f310f25e1e831084a7
+Size: 6578
+SHA256sum: 1f44dd81d85b7d232196965c5199d8b4a23db54f1375f3743e507c51bc462575
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -683,10 +683,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 13062
+Installed-Size: 13064
 Filename: iptables-mod-hashlimit_1.8.8-2_x86_64.ipk
-Size: 13763
-SHA256sum: bec08c1d0502dc489744ce1bc428c9a30337c3b558895ace58a61c5397d865d8
+Size: 13773
+SHA256sum: f50b5c1438dcee7ffece01ae2ff0e8ba30a5fb70bd63c7aa9b089f311b5a0b8a
 Description:  iptables extensions for hashlimit matching
  
  Matches:
@@ -705,8 +705,8 @@ CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
 Installed-Size: 17520
 Filename: iptables-mod-ipopt_1.8.8-2_x86_64.ipk
-Size: 18299
-SHA256sum: 8587d24af1c46f58ddf62c242c8c73e2aaf01b72682507119c2b4dcc119f45eb
+Size: 18281
+SHA256sum: e990768d04d9d673530924afc995f50e8d83af4fd5172ec2fde0f42656ca0762
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -735,10 +735,10 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 3893
+Installed-Size: 3895
 Filename: iptables-mod-iprange_1.8.8-2_x86_64.ipk
-Size: 4643
-SHA256sum: 541224c657007d1013b108f55c32bd56332161a71e939eed0436a770164a0439
+Size: 4642
+SHA256sum: 67ddb2c9d4bc23ee6e750652f087dc6ec1a9785fd6e1b0f2ee0bdd868aff0f5c
 Description:  iptables extensions for matching ip ranges.
  
  Matches:
@@ -1071,10 +1071,10 @@ SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:iucode-tool_project:iucode-tool
 Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
 Architecture: x86_64
-Installed-Size: 40112
+Installed-Size: 40105
 Filename: iucode-tool_2.3.1-2_x86_64.ipk
-Size: 40925
-SHA256sum: a3dd60da5b5dd940f8bc06d1ae8175d5cfbdc077c1186e194d03c929e69c45ca
+Size: 40920
+SHA256sum: 24405da92ece77bf6d937f393fdf79867c8324711e6dc2b59e607991f98cbd18
 Description:  Intel microcode loader
 
 Package: kmod-3c59x
@@ -9102,7 +9102,7 @@ SHA256sum: 108be10a7fe58f217ee31c2944195383cc2ac3dab990418b85fc3412e6e2580c
 Description:  MRF24J40 transceiver driver
 
 Package: kmod-mt76-connac
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 Source: package/kernel/mt76
 SourceName: kmod-mt76-connac
@@ -9111,14 +9111,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 60748
-Filename: kmod-mt76-connac_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 61440
-SHA256sum: f691362859ccb41ca61662d5324ee80e6adb2a89c58feafcc73ccd0f20c3bb33
+Installed-Size: 62811
+Filename: kmod-mt76-connac_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 63464
+SHA256sum: f6eab6b44e7ccada4f2c0d3e38dd12c5dbd10b80f735a3e4858b63b471588d22
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 Source: package/kernel/mt76
 SourceName: kmod-mt76-core
@@ -9127,14 +9127,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 71785
-Filename: kmod-mt76-core_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 72378
-SHA256sum: be9dc688eed8cb860f8bc9af06a036c23e609ba58156fab0077e485c5567f001
+Installed-Size: 71845
+Filename: kmod-mt76-core_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 72449
+SHA256sum: ce28bc4779ac3f51bff3b5b326328cdd0fea87500a59c2df55874cbbad8585a6
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mmc
 Source: package/kernel/mt76
 SourceName: kmod-mt76-sdio
@@ -9143,14 +9143,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 23162
-Filename: kmod-mt76-sdio_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 23946
-SHA256sum: 2b546528bc3881f1f4268b705c329bcdea32afa8724e322e48ce26095feb7973
+Installed-Size: 23166
+Filename: kmod-mt76-sdio_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 23952
+SHA256sum: 2f21bf139b85937fab6da9d0e3256434a5ff928305528da7f738e24ff65aa89b
 Description:  MediaTek MT7615/MT79xx SDIO driver common code
 
 Package: kmod-mt76-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-usb-core, kmod-mt76-core
 Source: package/kernel/mt76
 SourceName: kmod-mt76-usb
@@ -9159,10 +9159,10 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 28182
-Filename: kmod-mt76-usb_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 28996
-SHA256sum: 40a7881f351299ef3794b4f678f4ef6b06aa4cc9cb7249401c8b18f261d49336
+Installed-Size: 28181
+Filename: kmod-mt76-usb_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 28989
+SHA256sum: ec4fdd0a5e1e3fab94a052282fd7f75996fb3c7e9f5520e99c4fc5a2bf5a1f41
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
@@ -9181,7 +9181,7 @@ SHA256sum: 6398ade57a4e121340a7e9c0847761b261385067a245cfebf9d58cfe0fcb0ffa
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mt7603
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 Source: package/kernel/mt76
 SourceName: kmod-mt7603
@@ -9190,14 +9190,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 128760
-Filename: kmod-mt7603_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 129514
-SHA256sum: bb4442f4ff7fcf2c7602cdafead968333f5a2439449f3c6c089d1594670345b8
+Installed-Size: 128768
+Filename: kmod-mt7603_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 129502
+SHA256sum: a47b1d55657529ea63a9bb1ef9460c042ec5129a0bbfa922ce660f5caab46434
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mt76-connac, kmod-hwmon-core
 Source: package/kernel/mt76
 SourceName: kmod-mt7615-common
@@ -9206,14 +9206,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 88703
-Filename: kmod-mt7615-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 89197
-SHA256sum: 01a1a927b8e306316b60db0abb9ddfb0f8597fb665344ce0ba084c81629a0a8a
+Installed-Size: 88741
+Filename: kmod-mt7615-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 89224
+SHA256sum: 9b42b6370cd50e51c2a7089339def9749b414ac1af6e43f41bf89d6e0143e6df
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615e
 Source: package/kernel/mt76
 SourceName: kmod-mt7615-firmware
@@ -9223,13 +9223,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 551542
-Filename: kmod-mt7615-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
+Filename: kmod-mt7615-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
 Size: 552418
-SHA256sum: 4ee88157e2cc994dc35b261e35f4a4162d74ff1316922cb564b37d3bde2c151c
+SHA256sum: 05f4c7e4061ac8a2c4ca2ee16f8fb95a89f1e2eb178c8942ed3d48b8e1218735
 Description:  MediaTek MT7615e firmware
 
 Package: kmod-mt7615e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7615e
@@ -9238,14 +9238,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 31848
-Filename: kmod-mt7615e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 32643
-SHA256sum: 092baa9e89084c38e723c17a10dfff474a1b6d096def3aecce1cee68a159436d
+Installed-Size: 31874
+Filename: kmod-mt7615e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 32675
+SHA256sum: c2256f30c38f2a6650220d618f45be6f521151afc425e88fb1ceb97d134c9fa6
 Description:  MediaTek MT7615e wireless driver
 
 Package: kmod-mt7622-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615e
 Source: package/kernel/mt76
 SourceName: kmod-mt7622-firmware
@@ -9255,13 +9255,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 332330
-Filename: kmod-mt7622-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 333201
-SHA256sum: f58a75021fde23612542b4720a6e95c9b804a24570bbd33d70b5eefba8a2de32
+Filename: kmod-mt7622-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 333200
+SHA256sum: e08d537d08de69d352f2359a0acec94b98ab1869cf179cea37c05e1526b67bab
 Description:  MediaTek MT7622 firmware
 
 Package: kmod-mt7663-firmware-ap
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 Source: package/kernel/mt76
 SourceName: kmod-mt7663-firmware-ap
@@ -9271,13 +9271,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 460350
-Filename: kmod-mt7663-firmware-ap_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 461137
-SHA256sum: 1962a6a770f46b8de735274e8ba8acd1f5ee5a81be2f59e8bf654b0425dc8905
+Filename: kmod-mt7663-firmware-ap_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 461133
+SHA256sum: 4b5403682c8efe40cd50be2844cbf65691d377b1777358bb273cc0ee6f5ae2e5
 Description:  MediaTek MT7663e firmware (optimized for AP)
 
 Package: kmod-mt7663-firmware-sta
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 Source: package/kernel/mt76
 SourceName: kmod-mt7663-firmware-sta
@@ -9287,13 +9287,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 564545
-Filename: kmod-mt7663-firmware-sta_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 564967
-SHA256sum: 5332b719cf25b868e8c7933c0b60fd508a43a6de7d6ccb50a33d77d3cb06721b
+Filename: kmod-mt7663-firmware-sta_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 564968
+SHA256sum: 43155cccb68a63d0fe8d6c8f75e9b9e32b6be4528cc9c889fb9a4d2396df0873
 Description:  MediaTek MT7663e firmware (client mode offload)
 
 Package: kmod-mt7663-usb-sdio
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7615-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7663-usb-sdio
@@ -9302,14 +9302,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25471
-Filename: kmod-mt7663-usb-sdio_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26269
-SHA256sum: 23b414c90cbc7cd6db9de4a58539e40db27308a3cc283eef7e340cd8428fd619
+Installed-Size: 25479
+Filename: kmod-mt7663-usb-sdio_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26281
+SHA256sum: e9743b1006055f21632b27bf58bf6b5efb16326e0668a79b8bbba84c316dc114
 Description:  MediaTek MT7663 USB/SDIO shared code
 
 Package: kmod-mt7663s
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-sdio, kmod-mt7615-common, kmod-mt7663-usb-sdio
 Source: package/kernel/mt76
 SourceName: kmod-mt7663s
@@ -9318,14 +9318,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25836
-Filename: kmod-mt7663s_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26599
-SHA256sum: 1af4f919b37323566a3edb155f07b470e86cccb7e60d6230e1625542d82e8d5f
+Installed-Size: 25844
+Filename: kmod-mt7663s_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26621
+SHA256sum: 746a5998e2535bf493dfc590b815e15e279a3baa65a9e6e621dd055f339fb85f
 Description:  MediaTek MT7663s wireless driver
 
 Package: kmod-mt7663u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-usb, kmod-mt7615-common, kmod-mt7663-usb-sdio
 Source: package/kernel/mt76
 SourceName: kmod-mt7663u
@@ -9334,14 +9334,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25596
-Filename: kmod-mt7663u_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26367
-SHA256sum: ec8ff51b77ec49c54ab2fbeac4a644c1cb9d967e2242eb2a6d3c2f03253fc287
+Installed-Size: 25605
+Filename: kmod-mt7663u_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26373
+SHA256sum: 45b32a3c89e23fa96f83f9442dc9a1cb7ac02abfe1e207ced8210e141627eed3
 Description:  MediaTek MT7663u wireless driver
 
 Package: kmod-mt76
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mt76-core, kmod-mt76x2, kmod-mt7603
 Source: package/kernel/mt76
 SourceName: kmod-mt76
@@ -9351,13 +9351,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 97
-Filename: kmod-mt76_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
+Filename: kmod-mt76_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
 Size: 883
-SHA256sum: 7323854ebeda2d292d6e17b1144b4097841322dcfc750ca21708edf5854d06ae
+SHA256sum: cb5489edf514a998767c57244daea3bc03783cea5aa2c37171958c68c22c596c
 Description:  MediaTek MT76x2/MT7603 wireless driver (metapackage)
 
 Package: kmod-mt76x0-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x02-common
 Source: package/kernel/mt76
 SourceName: kmod-mt76x0-common
@@ -9366,14 +9366,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 81231
-Filename: kmod-mt76x0-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 81963
-SHA256sum: 65dfffd00065c50a5e9da1eeb83be7114319ee210d853775ee9c516f05a5e6bc
+Installed-Size: 81238
+Filename: kmod-mt76x0-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 81971
+SHA256sum: 6c9447db24a40c12859312d2cbf66e86f5bb2457db011b8622d9c52c4549458c
 Description:  MediaTek MT76x0 wireless driver common code
 
 Package: kmod-mt76x02-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core
 Source: package/kernel/mt76
 SourceName: kmod-mt76x02-common
@@ -9382,14 +9382,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 56122
-Filename: kmod-mt76x02-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 56857
-SHA256sum: e9b174d4f438922d47defde2f1a3825cfd0731991c5ebae659242b380aefed5f
+Installed-Size: 56129
+Filename: kmod-mt76x02-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 56862
+SHA256sum: 902ebaad55b021faddbc397b77236cff288d425f1bd975bbf9a0ba85a89d1ebb
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-usb, kmod-mt76x02-common
 Source: package/kernel/mt76
 SourceName: kmod-mt76x02-usb
@@ -9398,14 +9398,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 22561
-Filename: kmod-mt76x02-usb_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 23364
-SHA256sum: a41b6bf1d1020a27a6b0eb51cdf2a98ecda8e25e9b7dd531acbfee925e8c55c7
+Installed-Size: 22564
+Filename: kmod-mt76x02-usb_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 23361
+SHA256sum: 688a2eea59f11d7f55102b5584e6b31a3464eee433220dc6d73ebbb85dba76e0
 Description:  MediaTek MT76x0/MT76x2 USB wireless driver common code
 
 Package: kmod-mt76x0e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x0-common
 Source: package/kernel/mt76
 SourceName: kmod-mt76x0e
@@ -9414,14 +9414,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 26727
-Filename: kmod-mt76x0e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 27554
-SHA256sum: f80ce68f2b8c300b5a29f4bf09d41a81db84d5623c9ea9fe6fb4774fedf3a6e0
+Installed-Size: 26736
+Filename: kmod-mt76x0e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 27565
+SHA256sum: bf2b220379d602144b0e6b81701c0778e8fe5101bc3285f8db5df30f72c53ea9
 Description:  MediaTek MT76x0E wireless driver
 
 Package: kmod-mt76x0u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x0-common, kmod-mt76x02-usb
 Source: package/kernel/mt76
 SourceName: kmod-mt76x0u
@@ -9430,14 +9430,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25979
-Filename: kmod-mt76x0u_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26756
-SHA256sum: 9009dd41dedfabd6e7fd79e5b237669f075a5e2ba0291fc866ac83ca4841ac3a
+Installed-Size: 25987
+Filename: kmod-mt76x0u_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26765
+SHA256sum: ee47bda2cc08c66d0a9cfaa936a08c3580d20a64b985bbef5a3e060d865a64d0
 Description:  MediaTek MT76x0U wireless driver
 
 Package: kmod-mt76x2-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-core, kmod-mt76x02-common
 Source: package/kernel/mt76
 SourceName: kmod-mt76x2-common
@@ -9446,14 +9446,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 96252
-Filename: kmod-mt76x2-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 97114
-SHA256sum: 3d5e8ec15b71b1a75c6020f2171046ff2dff70666fb8e40986b8ab5b613a1cf3
+Installed-Size: 96254
+Filename: kmod-mt76x2-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 97116
+SHA256sum: 532d27422594b729c2bf813041a1bdc5b9c816c8d3c4fbd52804ffb41a9d75af
 Description:  MediaTek MT76x2 wireless driver common code
 
 Package: kmod-mt76x2
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x2-common
 Source: package/kernel/mt76
 SourceName: kmod-mt76x2
@@ -9462,14 +9462,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 31584
-Filename: kmod-mt76x2_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 32349
-SHA256sum: c88aa53c97bd8f846025f8a4a37b726c73d69a953bc48c118bcaebefde353603
+Installed-Size: 31590
+Filename: kmod-mt76x2_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 32359
+SHA256sum: 796fa2922c5f49033b7d1b37056d6de1badfb083489f071b38287eb00db2fc55
 Description:  MediaTek MT76x2 wireless driver
 
 Package: kmod-mt76x2u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76x2-common, kmod-mt76x02-usb
 Source: package/kernel/mt76
 SourceName: kmod-mt76x2u
@@ -9478,14 +9478,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 31066
-Filename: kmod-mt76x2u_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 31851
-SHA256sum: 637b7684ef69886c2410aad2b38cde57c775e4e08e4bcd8f29b15d412c0e0a38
+Installed-Size: 31073
+Filename: kmod-mt76x2u_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 31858
+SHA256sum: cc6260e52ad2c98912b89025c64560adecd362dd36b33981cb30a2aa70ab4d83
 Description:  MediaTek MT76x2U wireless driver
 
 Package: kmod-mt7915-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7915e
 Source: package/kernel/mt76
 SourceName: kmod-mt7915-firmware
@@ -9495,13 +9495,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 515665
-Filename: kmod-mt7915-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 511921
-SHA256sum: f17f27ec88e574a7f25922a050a4c457365d1939dfb86ae63b2d5eeaf3b0cea4
+Filename: kmod-mt7915-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 511929
+SHA256sum: b26df93335170d2d1c180c23abee2e5020e2dd8554849d8280b133b106dcb315
 Description:  MediaTek MT7915 firmware
 
 Package: kmod-mt7915e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
 Source: package/kernel/mt76
 SourceName: kmod-mt7915e
@@ -9510,14 +9510,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 118825
-Filename: kmod-mt7915e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 118855
-SHA256sum: 03f3190633f74d019ec739fc56a48624754aa9f7dccd53a0cd6ff3f83e2f1a69
+Installed-Size: 118886
+Filename: kmod-mt7915e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 118933
+SHA256sum: 4abf48355294e6311b7a99ef163d0e94fad31ff9f306324057e9808b8266b0cd
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7915e
 Source: package/kernel/mt76
 SourceName: kmod-mt7916-firmware
@@ -9527,13 +9527,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 693571
-Filename: kmod-mt7916-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
+Filename: kmod-mt7916-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
 Size: 689359
-SHA256sum: 2756e021f4c2138db32bd69ff3779382ca90873efdea7325966b7a81927995e1
+SHA256sum: f384cf4177ca273eb08efbd103dc45aae622ccb3e5ebca62d2121b5211687f12
 Description:  MediaTek MT7916 firmware
 
 Package: kmod-mt7921-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-mt7921-firmware, kmod-hwmon-core
 Source: package/kernel/mt76
 SourceName: kmod-mt7921-common
@@ -9542,14 +9542,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 73566
-Filename: kmod-mt7921-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 73409
-SHA256sum: e2bdc087fc6aa01bab17e1328db13130049d9ba2941998e0fd6ec15989855d6f
+Installed-Size: 73933
+Filename: kmod-mt7921-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 73739
+SHA256sum: 9adc1dc82fb3846666ebe105a06cd85f87ef1dbb39aef944462f828462773a30
 Description:  MediaTek MT7921 wireless driver common code
 
 Package: kmod-mt7921-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 Source: package/kernel/mt76
 SourceName: kmod-mt7921-firmware
@@ -9559,13 +9559,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 513221
-Filename: kmod-mt7921-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 512392
-SHA256sum: 0a22a6d9339316cd8b5b1213e283ae8666ade2ec0d0e8e13f31c6089e9770252
+Filename: kmod-mt7921-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 512394
+SHA256sum: 45e9df3bfec498df615bf92c7ec220fece4fb049427dc43cf93d559b98126485
 Description:  MediaTek MT7921 firmware
 
 Package: kmod-mt7921e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7921-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7921e
@@ -9574,14 +9574,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 29474
-Filename: kmod-mt7921e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 30282
-SHA256sum: 430bbb50e75b003951d97e150756e1be523d60f4ad6cb86a20e3371d84c20122
+Installed-Size: 29515
+Filename: kmod-mt7921e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 30316
+SHA256sum: ccc8a1f3a683a5ef78bc53532f05a4f042d262db406f01390cacd2537dedd8fc
 Description:  MediaTek MT7921e wireless driver
 
 Package: kmod-mt7921s
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-sdio, kmod-mt7921-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7921s
@@ -9590,14 +9590,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 27936
-Filename: kmod-mt7921s_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 28718
-SHA256sum: d69e5c09cf36a650b7d382698c228527439dd1df01b6831c02efdcd1ba6caecc
+Installed-Size: 27944
+Filename: kmod-mt7921s_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 28726
+SHA256sum: 7988e16903080e1ee0e5e303b0ef37ea300de610f44600f5914daae614e92657
 Description:  MediaTek MT7921S wireless driver
 
 Package: kmod-mt7921u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-usb, kmod-mt7921-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7921u
@@ -9606,14 +9606,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25393
-Filename: kmod-mt7921u_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26150
-SHA256sum: 2c24b86ec382df143fc006ee541deaea459a3831e8a4f635b76d9d8fc362f9ea
+Installed-Size: 25401
+Filename: kmod-mt7921u_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26155
+SHA256sum: 97a696db40e0a2cdb325e9143d4edc9fc9c0baa28ed8deba393f8ceec81e3021
 Description:  MediaTek MT7921U wireless driver
 
 Package: kmod-mt7922-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211
 Source: package/kernel/mt76
 SourceName: kmod-mt7922-firmware
@@ -9623,13 +9623,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 1091558
-Filename: kmod-mt7922-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
+Filename: kmod-mt7922-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
 Size: 1092341
-SHA256sum: 189091f2bdccf5de8f99813057b87c1505c48f0680f153a50e2f6b8066e06dd1
+SHA256sum: d4be76cc021a2dd4546126113db7e6a066e4f2121ee0e169a6fc7be975789657
 Description:  MediaTek MT7922 firmware
 
 Package: kmod-mt7925-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-hwmon-core
 Source: package/kernel/mt76
 SourceName: kmod-mt7925-common
@@ -9638,14 +9638,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 80172
-Filename: kmod-mt7925-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 80619
-SHA256sum: 50d6a8320e5fb59f6a05dd4b0e9c8a712d395f326dc17118ef4ef3f95adad5df
+Installed-Size: 80200
+Filename: kmod-mt7925-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 80615
+SHA256sum: c787fc8fa41b96531c48d20544a38c30a41c7553661e0abcfedd30f9d17f5ae5
 Description:  MediaTek MT7925 wireless driver common code
 
 Package: kmod-mt7925e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7925-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7925e
@@ -9654,14 +9654,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 29508
-Filename: kmod-mt7925e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 30282
-SHA256sum: 54f6adbbedd037e109166e159aa0713bca4dc07516931568e746c2e16b992dde
+Installed-Size: 29516
+Filename: kmod-mt7925e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 30284
+SHA256sum: 3e02aa55910289aca27d04bf37ce44ed576cbd0fe85ec62f9d419f556818b9c2
 Description:  MediaTek MT7925e wireless driver
 
 Package: kmod-mt7925u
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-usb, kmod-mt7925-common
 Source: package/kernel/mt76
 SourceName: kmod-mt7925u
@@ -9670,14 +9670,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25372
-Filename: kmod-mt7925u_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 26120
-SHA256sum: 62539ca69ba32bd1f77b136233525dd32c3b84dbd8e0e438020e810f153d6f81
+Installed-Size: 25382
+Filename: kmod-mt7925u_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 26127
+SHA256sum: 5970ea47e617670bf02eb20a82943b3e00dd128006748cd659da5a5aea129cdd
 Description:  MediaTek MT7925U wireless driver
 
 Package: kmod-mt792x-common
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac
 Source: package/kernel/mt76
 SourceName: kmod-mt792x-common
@@ -9686,14 +9686,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 46360
-Filename: kmod-mt792x-common_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 47071
-SHA256sum: 91e6e13aa9e9def80a4184668d7e70e9b7b111b363cc0471586a0f0d1df9dec8
+Installed-Size: 46368
+Filename: kmod-mt792x-common_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 47085
+SHA256sum: 944cc6badf097e44080ae9c241d26ab41fcc8602957c7a6cd091a2502bcd0e57
 Description:  MediaTek MT792x wireless driver common code
 
 Package: kmod-mt792x-usb
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt792x-common, kmod-mt76-usb
 Source: package/kernel/mt76
 SourceName: kmod-mt792x-usb
@@ -9702,14 +9702,14 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 18829
-Filename: kmod-mt792x-usb_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 19631
-SHA256sum: 1fb13c22abfe4e1f98a190c92916908312b5f2107f4a763d51e3c48a3416f47b
+Installed-Size: 18834
+Filename: kmod-mt792x-usb_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 19627
+SHA256sum: 627709fa2989ba7b9d8bf4d36cf128f3427df1933496aa877e2cf5ea47064f16
 Description:  MediaTek MT792x wireless driver USB code
 
 Package: kmod-mt7996-firmware
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt7996e
 Source: package/kernel/mt76
 SourceName: kmod-mt7996-firmware
@@ -9719,13 +9719,13 @@ SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
 Installed-Size: 3303804
-Filename: kmod-mt7996-firmware_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 3305228
-SHA256sum: 4c23ad1a45382bbfc32bd91571b14e8cac1c57d15b86385bc14c7dcab0f073bc
+Filename: kmod-mt7996-firmware_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 3305226
+SHA256sum: eed040a5af88e6164a419cc4538aa53571e15fa67aeb41caf8e73fda5ee5e972
 Description:  MediaTek MT7996 firmware
 
 Package: kmod-mt7996e
-Version: 6.6.31+2024-04-03-1e336a85-1
+Version: 6.6.31+2024-05-17-513c131c-1
 Depends: kernel (=6.6.31-1-1278e4fe19e49d061c1f6cdd53ae64d2), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core
 Source: package/kernel/mt76
 SourceName: kmod-mt7996e
@@ -9734,10 +9734,10 @@ Section: kernel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 116095
-Filename: kmod-mt7996e_6.6.31+2024-04-03-1e336a85-1_x86_64.ipk
-Size: 116253
-SHA256sum: da7126be7a05d13a02bbb0af26fbc33a40010a7bca8bc52e506cd16e7b433fb7
+Installed-Size: 116100
+Filename: kmod-mt7996e_6.6.31+2024-05-17-513c131c-1_x86_64.ipk
+Size: 116279
+SHA256sum: f668518712b901e8840fa29a2cbecca2515697824e5b535b8c63882606227df9
 Description:  MediaTek MT7996E wireless driver
 
 Package: kmod-mtdoops
@@ -17053,10 +17053,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 13086
+Installed-Size: 13112
 Filename: libip4tc2_1.8.8-2_x86_64.ipk
-Size: 13862
-SHA256sum: 94d91384ef180e6ada0ebb691b2161375b10de65eeea322f256c0dc7aeed83ed
+Size: 13877
+SHA256sum: 48680358979c436ce86749dda81faeeae3c0ac6a087122f4cd0a67232cacb8cc
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc2
@@ -17071,10 +17071,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 13395
+Installed-Size: 13377
 Filename: libip6tc2_1.8.8-2_x86_64.ipk
-Size: 14158
-SHA256sum: 4817833fc67b2f71ae5044366ead173d2977a2a8f7d4ea061ca18ddf9d38f180
+Size: 14148
+SHA256sum: ba64192ef4b7cb86377538167c1221ca1bf7dbb402212b60f299d5a168d16223
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptext-nft0
@@ -17107,10 +17107,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 0
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 51374
+Installed-Size: 51384
 Filename: libiptext0_1.8.8-2_x86_64.ipk
-Size: 52170
-SHA256sum: 14decea8cad4455636d4c6aa1aefecfd81ae74461521b6dc7679e08f111fad6d
+Size: 52178
+SHA256sum: fd6bbafef84bb0940991c9d5f54428aaacbf3f59a1a66bfe194b0d73a07387ab
 Description:  IPv4 firewall - shared libiptext library
 
 Package: libiptext6-0
@@ -17125,10 +17125,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: -0
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 9278
+Installed-Size: 9257
 Filename: libiptext6-0_1.8.8-2_x86_64.ipk
-Size: 10064
-SHA256sum: 981fce3d6ecb3f68fa35b8bd21ffa00925de93c2629d10601ec08c4b35734547
+Size: 10045
+SHA256sum: 1930b2387de3b38e59cbdca468051851d2b66179b11c4e40768ebea389372bd0
 Description:  IPv6 firewall - shared libiptext library
 
 Package: libpthread
@@ -17198,10 +17198,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 129
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 85413
+Installed-Size: 85443
 Filename: libxdp129_1.2.9-1_x86_64.ipk
-Size: 85377
-SHA256sum: 01ec90cabcfa0428ed97cc4ac311e40c7128e232ca3ee06f0378ff013b4f2ceb
+Size: 85471
+SHA256sum: f6351f0f9c9dd103805d7c67c3e6d40d0c4fd02b6a79211109c2ecbb1bb93892
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -17216,10 +17216,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 12
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 26295
+Installed-Size: 26310
 Filename: libxtables12_1.8.8-2_x86_64.ipk
-Size: 26997
-SHA256sum: 8a76801cdb3fbb31cc5f81716c77de76991fd3853edea39ead435ae596b7c482
+Size: 27016
+SHA256sum: 19f82a25f5929f53fa57082d34600ec61732f79f424e0ff5ef17f2c10dcde7a4
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mt7601u-firmware
@@ -17246,10 +17246,10 @@ License: GPL-2.0+
 Section: utils
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 13648
+Installed-Size: 13643
 Filename: mtd_26_x86_64.ipk
-Size: 14424
-SHA256sum: 0e153484726d96632c32f64bc910beb9c7282cb4d6f163f5d26fc74deae906e1
+Size: 14418
+SHA256sum: 93703228ffbee49e80c069d45197dac3443cb6d2797c4014c7bc307d04a3a393
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -17307,10 +17307,10 @@ Section: devel
 SourceDateEpoch: 1711146363
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 1595110
+Installed-Size: 1595999
 Filename: perf_6.6.31-6_x86_64.ipk
-Size: 1591002
-SHA256sum: 8dff4a84b7bc368edd50c2defb759c7be3a821115f282d2548eed880d5849822
+Size: 1591892
+SHA256sum: 0bd4ab2278d68f1030b79a3793b71e3164b5d9003b6f9506175a1e37b9d387fb
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -17720,10 +17720,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 41246
+Installed-Size: 41264
 Filename: xdp-filter_1.2.9-1_x86_64.ipk
-Size: 42059
-SHA256sum: 15546dbf7ab15def957e2e5cd76bcddad00a8df026ba9fe212609c90a891fe70
+Size: 42056
+SHA256sum: a8de8d2ab09ea937d7cad0274859a0589c08d11cf2ca0c0d9352cf05f87192fc
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -17739,10 +17739,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 33500
+Installed-Size: 33503
 Filename: xdp-loader_1.2.9-1_x86_64.ipk
-Size: 34310
-SHA256sum: c28c278d68d945821d46eb5ed6bf2624c6eb71aed9bc2f2f29675279181a92de
+Size: 34308
+SHA256sum: dbddc36401818a3b07ee63a4b9e73d45e1b261d19209a8e74b55340a9c245bad
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -17757,10 +17757,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 42055
+Installed-Size: 42053
 Filename: xdpdump_1.2.9-1_x86_64.ipk
-Size: 42794
-SHA256sum: 71d234a7e5de64bf9e8d5ac6867c987b1e727c218ac6be43e2dc1d59f0c4dad2
+Size: 42758
+SHA256sum: 6bf0bba2f3ee29f08d8b0afe0943f18cdfdc2e307acac4fbd9780911489a5d0e
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
@@ -17775,8 +17775,8 @@ CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
 Installed-Size: 31610
 Filename: xtables-legacy_1.8.8-2_x86_64.ipk
-Size: 32283
-SHA256sum: d602a59471f1ccfc9e2514637749b3af4947376be2dc559c6e15aa01242338d8
+Size: 32271
+SHA256sum: 2d2c8b81ed8fa12f8f743a257b143d69fe885868c6beb9f347d8a8fa88848290
 Description:  IP firewall administration tool
 
 Package: xtables-nft
@@ -17789,9 +17789,9 @@ Section: net
 SourceDateEpoch: 1711146363
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: x86_64
-Installed-Size: 96880
+Installed-Size: 96973
 Filename: xtables-nft_1.8.8-2_x86_64.ipk
-Size: 97440
-SHA256sum: b46dc5b508198619c27f5716ba838a6d8f1a0fc93e6ba67bc5a5e93e8272e6f6
+Size: 97548
+SHA256sum: b5046774d40b62c21572925f52c9877ebb78b2c9818f800bc7aff5e4eceb2b33
 Description:  IP firewall administration tool nft
 
