@@ -100,10 +100,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 47786
+Installed-Size: 47787
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48794
-SHA256sum: c92f160d43d0b6d3b292abd72fee0ddf878eb96121be8c71a20a894b7063f01f
+Size: 48798
+SHA256sum: afc809ca8f836e8d40bc9a946feb47a31286f9daa5cd7f00628125dc05c0602a
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -6973,6 +6973,57 @@ Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  - xfrm_ipcomp
  - xfrm_user
 
+Package: kmod-ipt-account
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-account
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 8989
+Filename: kmod-ipt-account_6.6.32+3.24-2_x86_64.ipk
+Size: 9801
+SHA256sum: 4f3ad5a88b798e60e4dfbeffb4b920faa07ba069a99019abe627b74c35bef265
+Description:  ACCOUNT netfilter module
+
+Package: kmod-ipt-asn
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-asn
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4002
+Filename: kmod-ipt-asn_6.6.32+3.24-2_x86_64.ipk
+Size: 4789
+SHA256sum: 9e056bb9cabef3e2b304fe18e47c819a198b658eeed9b874923a05d784641378
+Description:  asn netfilter module
+
+Package: kmod-ipt-chaos
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-delude, kmod-ipt-tarpit
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-chaos
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3095
+Filename: kmod-ipt-chaos_6.6.32+3.24-2_x86_64.ipk
+Size: 3911
+SHA256sum: e015738e8385a1defc8ce60b6e26d2cda4bdf08463f4b7a0c60348bc40dee805
+Description:  CHAOS netfilter module
+
 Package: kmod-ipt-checksum
 Version: 6.6.32-1
 Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
@@ -7037,6 +7088,40 @@ Description:  Netfilter (IPv4-only) module for CLUSTERIP
  To use it also enable iptables-mod-clusterip
  
  see `iptables -j CLUSTERIP --help` for more information.
+
+Package: kmod-ipt-compat-xtables
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ip6tables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-compat-xtables
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 975
+Filename: kmod-ipt-compat-xtables_6.6.32+3.24-2_x86_64.ipk
+Size: 1803
+SHA256sum: 343885082aa91555b9cbe686c3055564fb478dbcb552c3019786957cb074b1ed
+Description:  API compatibilty layer netfilter module
+
+Package: kmod-ipt-condition
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-condition
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3555
+Filename: kmod-ipt-condition_6.6.32+3.24-2_x86_64.ipk
+Size: 4348
+SHA256sum: dae7d4b8fdbcabd0ae5fa975f389c2f3c9e592b428534cc71fe6bcf65e8cacb0
+Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
 Version: 6.6.32-1
@@ -7154,6 +7239,57 @@ Description:  Netfilter modules for debugging/development of the firewall
  Includes:
  - TRACE
 
+Package: kmod-ipt-delude
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-delude
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 2657
+Filename: kmod-ipt-delude_6.6.32+3.24-2_x86_64.ipk
+Size: 3460
+SHA256sum: 8d71ff2c9031b0f4015d3956e4edd4bf799b7c9de17bf2459f1d09194b86491d
+Description:  DELUDE netfilter module
+
+Package: kmod-ipt-dhcpmac
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-dhcpmac
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3020
+Filename: kmod-ipt-dhcpmac_6.6.32+3.24-2_x86_64.ipk
+Size: 3826
+SHA256sum: de98526116686e49a9abc103dc91ed428d0d5c4e2b7e65b2d03e60d6e99cdc3e
+Description:  DHCPMAC netfilter module
+
+Package: kmod-ipt-dnetmap
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-nat
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-dnetmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 935
+Filename: kmod-ipt-dnetmap_6.6.32+3.24-2_x86_64.ipk
+Size: 1765
+SHA256sum: df8c777185ac0de7ab2ab72da651efac0a74a4f68cc0b8ced2ff236799661a0b
+Description:  DNETMAP netfilter module
+
 Package: kmod-ipt-extra
 Version: 6.6.32-1
 Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
@@ -7192,6 +7328,40 @@ Description:  Netfilter (IPv4) kernel modules for packet content inspection
  - string
  - bpf
 
+Package: kmod-ipt-fuzzy
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-fuzzy
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 2179
+Filename: kmod-ipt-fuzzy_6.6.32+3.24-2_x86_64.ipk
+Size: 2955
+SHA256sum: 40dc530c14fd81c15c134b57632c75add7418ecb16eb5b683fa8f6f8b8a68f5a
+Description:  fuzzy netfilter module
+
+Package: kmod-ipt-geoip
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-geoip
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4024
+Filename: kmod-ipt-geoip_6.6.32+3.24-2_x86_64.ipk
+Size: 4822
+SHA256sum: 797b91b8e1323888f6b721e30ffcb02800ed42a50197d1272a43cf4d57800ac1
+Description:  geoip netfilter module
+
 Package: kmod-ipt-hashlimit
 Version: 6.6.32-1
 Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
@@ -7206,6 +7376,40 @@ Filename: kmod-ipt-hashlimit_6.6.32-1_x86_64.ipk
 Size: 10999
 SHA256sum: cbe2af3c8dde9f2a40a28ec036de72f72380f74924bcb8f678ddcfacb9759c43
 Description:  Kernel modules support for the hashlimit bucket match module
+
+Package: kmod-ipt-iface
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-iface
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 2150
+Filename: kmod-ipt-iface_6.6.32+3.24-2_x86_64.ipk
+Size: 2927
+SHA256sum: e0c27d34cddea7a7604ea976ab59decc3f143e4be872ff727f1033e9a6639552
+Description:  iface netfilter module
+
+Package: kmod-ipt-ipmark
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-ipmark
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 1923
+Filename: kmod-ipt-ipmark_6.6.32+3.24-2_x86_64.ipk
+Size: 2711
+SHA256sum: 6a0f8a7c01a78df003cf8162094d1b6d56b257c9984d4e8fe26f24b82b9aca75
+Description:  IPMARK netfilter module
 
 Package: kmod-ipt-ipopt
 Version: 6.6.32-1
@@ -7233,6 +7437,23 @@ Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  - time
  - ttl/TTL
  - unclean
+
+Package: kmod-ipt-ipp2p
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-ipp2p
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 6957
+Filename: kmod-ipt-ipp2p_6.6.32+3.24-2_x86_64.ipk
+Size: 7781
+SHA256sum: 3c35f2691b32c6ef9691a74040c0b0f2700df5d2277f26892d18146015f3bd9f
+Description:  IPP2P netfilter module
 
 Package: kmod-ipt-iprange
 Version: 6.6.32-1
@@ -7285,6 +7506,23 @@ Size: 276300
 SHA256sum: fea51a3be112776684457e08d6d8bbd51197b890948e4da17b95eb32d85bbf3e
 Description:  IPset netfilter modules
 
+Package: kmod-ipt-ipv4options
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-ipv4options
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 1797
+Filename: kmod-ipt-ipv4options_6.6.32+3.24-2_x86_64.ipk
+Size: 2577
+SHA256sum: bd6f55388c728a12a0c2e41fa62437b9683068b9a39fb9c26793aef4b4f89a08
+Description:  ipv4options netfilter module
+
 Package: kmod-ipt-led
 Version: 6.6.32-1
 Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
@@ -7299,6 +7537,74 @@ Filename: kmod-ipt-led_6.6.32-1_x86_64.ipk
 Size: 3536
 SHA256sum: 2147e2f1e59d177ad129900fbbf4600802655ec42dc26d80ec6bc50875eac6db
 Description:  Netfilter target to trigger a LED when a network packet is matched.
+
+Package: kmod-ipt-length2
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-length2
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3440
+Filename: kmod-ipt-length2_6.6.32+3.24-2_x86_64.ipk
+Size: 4261
+SHA256sum: e8a1478dbac3962b0af87583128123e92d41b878f62d66f0c624e226504e5b84
+Description:  length2 netfilter module
+
+Package: kmod-ipt-logmark
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-logmark
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 2506
+Filename: kmod-ipt-logmark_6.6.32+3.24-2_x86_64.ipk
+Size: 3311
+SHA256sum: 97711be9afb331d443e92cae108384888de2b79a2c057d16c45bebec1a3f7d8c
+Description:  LOGMARK netfilter module
+
+Package: kmod-ipt-lscan
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-lscan
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 3162
+Filename: kmod-ipt-lscan_6.6.32+3.24-2_x86_64.ipk
+Size: 3948
+SHA256sum: 2682554e1d1d3ae31107e78b32b571c865f0d05cf14ad84a791a4f4e3b122e4d
+Description:  lscan netfilter module
+
+Package: kmod-ipt-lua
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-conntrack-extra
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-lua
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 126625
+Filename: kmod-ipt-lua_6.6.32+3.24-2_x86_64.ipk
+Size: 126456
+SHA256sum: 16d8e5a5e464a92f277cfb702f83e7c122f210f27d19db168b965e16a04fc1b6
+Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
 Version: 6.6.32-1
@@ -7349,6 +7655,23 @@ SHA256sum: 9435b81c0b627a94d7316cca409c29189d582f09c11324041d5a239f6ce601c6
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
+
+Package: kmod-ipt-nathelper-rtsp
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-conntrack-extra, kmod-ipt-nat
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-nathelper-rtsp
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 10619
+Filename: kmod-ipt-nathelper-rtsp_6.6.32+3.24-2_x86_64.ipk
+Size: 11460
+SHA256sum: 0fad640cbeee4790fd28c4505cdefbe2bdc8ab9154e36e7a2026717a56179377
+Description:  RTSP Conntrack and NAT netfilter module
 
 Package: kmod-ipt-nflog
 Version: 6.6.32-1
@@ -7413,6 +7736,57 @@ Filename: kmod-ipt-physdev_6.6.32-1_x86_64.ipk
 Size: 3104
 SHA256sum: 92eae821eba28c73e41d25e6adf700be608f44694e6db21e32c7777010460f6a
 Description:  The iptables physdev kernel module
+
+Package: kmod-ipt-proto
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-proto
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 2713
+Filename: kmod-ipt-proto_6.6.32+3.24-2_x86_64.ipk
+Size: 3505
+SHA256sum: 098b848ddaf11930e439a3c1dc4d13a5e8f85318604f1b000d430223ce31aa76
+Description:  PROTO netfilter module
+
+Package: kmod-ipt-psd
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-psd
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4137
+Filename: kmod-ipt-psd_6.6.32+3.24-2_x86_64.ipk
+Size: 4929
+SHA256sum: 49044917a212847f0acb0971cf97a417d519cc1f190db3ae3229fe8cd94942ad
+Description:  psd netfilter module
+
+Package: kmod-ipt-quota2
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-quota2
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4211
+Filename: kmod-ipt-quota2_6.6.32+3.24-2_x86_64.ipk
+Size: 5007
+SHA256sum: 05e9b8bb608ad94b58c17365b24b811f21929b70a0549e58baa5c26b779997ac
+Description:  quota2 netfilter module
 
 Package: kmod-ipt-raw6
 Version: 6.6.32-1
@@ -7492,6 +7866,40 @@ Filename: kmod-ipt-socket_6.6.32-1_x86_64.ipk
 Size: 3758
 SHA256sum: 77855442d66af98852edd3d96ba765ff8f2bc74f301ee181eaf9ab8cae2cca99
 Description:  Kernel modules for socket matching
+
+Package: kmod-ipt-sysrq
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-crypto-hash
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-sysrq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4409
+Filename: kmod-ipt-sysrq_6.6.32+3.24-2_x86_64.ipk
+Size: 5237
+SHA256sum: 301d2c58cb29c77ee2ef349fa1adc710f0415bcb47cfeae3a6d7b170d5f4742c
+Description:  SYSRQ netfilter module
+
+Package: kmod-ipt-tarpit
+Version: 6.6.32+3.24-2
+Depends: kernel (=6.6.32-1-db711dcd3259c272e51666a3d61a1040), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: feeds/packages/net/xtables-addons
+SourceName: kmod-ipt-tarpit
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+SourceDateEpoch: 1717004723
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 4665
+Filename: kmod-ipt-tarpit_6.6.32+3.24-2_x86_64.ipk
+Size: 5472
+SHA256sum: 9a88746da6228ac66da51f1449fd7277506057e2dc3fae3d595d1426eceadd94
+Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
 Version: 6.6.32-1
