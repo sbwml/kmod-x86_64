@@ -100,10 +100,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 47787
+Installed-Size: 47786
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48794
-SHA256sum: 1c871e3bb93e33592e42daa43bc7dfd8267d3c87bf341d229541c6aa70de26f4
+Size: 48798
+SHA256sum: 6853b105be2b9b6ba4beb20000284ec0d2538b2c9be93f4d63a31b138dafea79
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -6553,10 +6553,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 49919
+Installed-Size: 49920
 Filename: kmod-ikconfig_6.6.32-1_x86_64.ipk
-Size: 50767
-SHA256sum: a06a2b626c529aeb259d4beefd7df047a20a27fb965e1ff72ae8ead6468b2754
+Size: 50770
+SHA256sum: d7bfb2ba8987339c917da5b41937cb0d390a82717957fd8ba26e4ace7daff9cc
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -11466,10 +11466,10 @@ SourceName: kmod-oaf
 Section: Derry Apps
 SourceDateEpoch: 1715262037
 Architecture: x86_64
-Installed-Size: 451278
+Installed-Size: 451283
 Filename: kmod-oaf_6.6.32-1_x86_64.ipk
-Size: 447758
-SHA256sum: d2604cc89547c60c560be2c548b389f351ceb3c8380f9e14239d9422a7ad542c
+Size: 447844
+SHA256sum: f981e12fcd28b8cd3cf4e4bba217bd4c43a6276e43ee0d73a10b6c14e07f2d0c
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -14612,10 +14612,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 10573
+Installed-Size: 10605
 Filename: kmod-switch-rtl8367_6.6.32-1_x86_64.ipk
-Size: 11283
-SHA256sum: 48f18e1ce0a3399587a4295465a8c0ac4a8d2af5a4e8226230cbf4381c185709
+Size: 11299
+SHA256sum: 074ea1a329a8594e034b85b4fa31034fa350657ad3288eed22ab6a8caecc795f
 Description:  Realtek RTL8367 switch support
 
 Package: kmod-switch-rtl8367b
@@ -14627,10 +14627,10 @@ License: GPL-2.0
 Section: kernel
 SourceDateEpoch: 1711146363
 Architecture: x86_64
-Installed-Size: 11253
+Installed-Size: 11281
 Filename: kmod-switch-rtl8367b_6.6.32-1_x86_64.ipk
-Size: 11963
-SHA256sum: 92749015ff42a387e9061bd8cd94bcf4b2b8e5788a7e05ca5f4864cdd68df49c
+Size: 11987
+SHA256sum: 7b3c096a546d785cf854ee64bd08907157ac639d3b6947014d49385c604208f1
 Description:  Realtek RTL8367R/B switch support
 
 Package: kmod-tcp-bbr3
@@ -17623,10 +17623,10 @@ SourceDateEpoch: 1711146363
 ABIVersion: 129
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 85461
+Installed-Size: 85513
 Filename: libxdp129_1.2.9-1_x86_64.ipk
-Size: 85427
-SHA256sum: 57547813e25b9149543c899188b31d74754ee1c0c45e3218a0f2ad78360074f9
+Size: 85581
+SHA256sum: c699d630d26f3e5ab9df1d44680673469a14e0d1471d80e0c605bc52db861121
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -18145,10 +18145,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 41200
+Installed-Size: 41202
 Filename: xdp-filter_1.2.9-1_x86_64.ipk
-Size: 41995
-SHA256sum: 91d3d8441a98804d0a3260c42bf3feb7459fcfcb5a934c912f41678c79d41e33
+Size: 41985
+SHA256sum: beb338035034daead187f34f183e8e20f06f735c06ab78fdecec4fc433f357e4
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -18164,10 +18164,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 33410
+Installed-Size: 33412
 Filename: xdp-loader_1.2.9-1_x86_64.ipk
-Size: 34188
-SHA256sum: 2674b4c52c5d8f891bac2ed00b97f137fd14b8b1b8e47ac006d6970a5f0c0d88
+Size: 34224
+SHA256sum: 5e58f9f6d1abe05faa593f21e3243138583a3e1607ac66f709ef91c61acbc34f
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -18182,10 +18182,10 @@ Section: net
 SourceDateEpoch: 1711146363
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 41980
+Installed-Size: 41983
 Filename: xdpdump_1.2.9-1_x86_64.ipk
-Size: 42703
-SHA256sum: cfec0b14401fcf00d17c373154ab2ea1fc7ddf0eee877b8c02049c9b954a23ea
+Size: 42694
+SHA256sum: 5c81e247031a52309b187254a3bc232f3866bc7e52c722b34ad20e4e57a04222
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
