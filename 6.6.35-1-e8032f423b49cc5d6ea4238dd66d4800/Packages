@@ -76,8 +76,8 @@ Section: base
 Architecture: x86_64
 Installed-Size: 47786
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48794
-SHA256sum: e98f0789f131468c4ca316a1b86ef4cc893aed84b7bedda1702754a4aab0f7d9
+Size: 48793
+SHA256sum: b33317b4cff700200067538957e0193b87370df00469dfc139f93b2cba8c8bb9
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -5317,10 +5317,10 @@ Depends: kernel (=6.6.35-1-e8032f423b49cc5d6ea4238dd66d4800)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 50893
+Installed-Size: 50888
 Filename: kmod-ikconfig_6.6.35-1_x86_64.ipk
-Size: 51754
-SHA256sum: 38f7068b310a778fb38078800256c2d7d4a30affec3cb1b54635dceee96be362
+Size: 51750
+SHA256sum: a5109202abd8953b1a76cad2dfb33807c41924c84384adf9cb15ca55f521c949
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -9184,10 +9184,10 @@ Version: 6.6.35-1
 Depends: kernel (=6.6.35-1-e8032f423b49cc5d6ea4238dd66d4800), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: x86_64
-Installed-Size: 457142
+Installed-Size: 457127
 Filename: kmod-oaf_6.6.35-1_x86_64.ipk
-Size: 453177
-SHA256sum: 2eb1770638a6986e2219ad3c9c158f1c29525f9fdde62978f0d049c1e85a8756
+Size: 453157
+SHA256sum: b5e0a15e1dacce686fc81a69800d220802abf62c8756032731dc46d395a5c00a
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -14076,8 +14076,8 @@ ABIVersion: 129
 Architecture: x86_64
 Installed-Size: 85510
 Filename: libxdp129_1.2.9-1_x86_64.ipk
-Size: 85523
-SHA256sum: 44bee080869ba9bd81eeb05b9c0fb0c3ad16e1dc6f5bf2ea3c00afcd1bb3cd22
+Size: 85535
+SHA256sum: e4cc515f9f74352f54b2bc1356ed0c5e8a08df6125c6735a0df34d1db4de451f
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -14465,7 +14465,7 @@ Architecture: x86_64
 Installed-Size: 41292
 Filename: xdp-filter_1.2.9-1_x86_64.ipk
 Size: 42047
-SHA256sum: 8a312f181b45b25489335fa303cc2edebd9d189d9e9e637a73ed4fc710737ea5
+SHA256sum: 68bba13079f70d97f23650bcd56d7717acdd6cb71d230671bf77c0a8cd27684d
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -14477,10 +14477,10 @@ Depends: libc, libxdp129
 License: GPL-2.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 33467
+Installed-Size: 33469
 Filename: xdp-loader_1.2.9-1_x86_64.ipk
-Size: 34266
-SHA256sum: 60cf8b0733edad1ecbfbc09fcb2e87930d980fbaf38995c8dbb1b49141a41b0f
+Size: 34280
+SHA256sum: 257e7caaeea11ebd275d2cbef89cb321dd14d59ba8c02a6d09b4c01a2962f0b5
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -14493,8 +14493,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 41996
 Filename: xdpdump_1.2.9-1_x86_64.ipk
-Size: 42699
-SHA256sum: 7c707afda02e80f2980ec709c1daac0cdfc04c223871ec0c0927aae0693e1b6b
+Size: 42738
+SHA256sum: f08d9348607fc516eafda9af9022011e088da037caba9dafb0a875bea40955f8
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
