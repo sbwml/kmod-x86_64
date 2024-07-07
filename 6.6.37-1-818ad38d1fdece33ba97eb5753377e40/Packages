@@ -76,8 +76,8 @@ Section: base
 Architecture: x86_64
 Installed-Size: 47786
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48794
-SHA256sum: cc11142bcb6725d09b6409cea52b6c9bcc48f1dbce1000bc24f0998079de0e5b
+Size: 48793
+SHA256sum: d121c59d98a510b4ca47c30c338971a307607f18bdb46240b6017f15a75c12f7
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -9913,14 +9913,14 @@ SHA256sum: a412583e0f8924f17f851c11545e10d2f96b971d53afd31957b55fd9a9852468
 Description:  Driver for Realtek r8101 chipsets
 
 Package: kmod-r8125
-Version: 6.6.37+9.013.02-1
+Version: 6.6.37+9.013.02-2
 Depends: kernel (=6.6.37-1-818ad38d1fdece33ba97eb5753377e40), kmod-mii, kmod-phy-realtek
 Section: kernel
 Architecture: x86_64
-Installed-Size: 122050
-Filename: kmod-r8125_6.6.37+9.013.02-1_x86_64.ipk
-Size: 117118
-SHA256sum: feff582d71de72c7321d8f273d79456ec4437ed0bac867b3806e28ea73f96a53
+Installed-Size: 122038
+Filename: kmod-r8125_6.6.37+9.013.02-2_x86_64.ipk
+Size: 117161
+SHA256sum: b1980b16118a9f86a091fd8296abd575659e274b91ce39faff1532d88c0ddf47
 Description:  Driver for Realtek r8125 chipsets
 
 Package: kmod-r8126
@@ -12390,15 +12390,15 @@ SHA256sum: f3968437df629b6184cb44f335b890368572967b02497cdd133e2e10dd155675
 Description:  Kernel module for USB-to-Ethernet Realtek 8150 convertors
 
 Package: kmod-usb-net-rtl8152-vendor
-Version: 6.6.37+2.17.1-1
+Version: 6.6.37+2.18.1-1
 Depends: kernel (=6.6.37-1-818ad38d1fdece33ba97eb5753377e40), kmod-usb-net
 Conflicts: kmod-usb-net-rtl8152
 Section: kernel
 Architecture: x86_64
-Installed-Size: 170551
-Filename: kmod-usb-net-rtl8152-vendor_6.6.37+2.17.1-1_x86_64.ipk
-Size: 153991
-SHA256sum: 1041af227541998054e8b74ba85136e4915b2547f920a214dbd25cdc3ed4f130
+Installed-Size: 173049
+Filename: kmod-usb-net-rtl8152-vendor_6.6.37+2.18.1-1_x86_64.ipk
+Size: 162230
+SHA256sum: 8769349cd6727a6696a0b5d1d2c7eab2ca2fc069b771d0deeabfec9715112783
 Description:  Kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
 
 Package: kmod-usb-net-rtl8152
