@@ -102,8 +102,8 @@ SourceDateEpoch: 1711146363
 Architecture: x86_64
 Installed-Size: 47786
 Filename: base-files_1-r23809-234f1a2efa_x86_64.ipk
-Size: 48793
-SHA256sum: d121c59d98a510b4ca47c30c338971a307607f18bdb46240b6017f15a75c12f7
+Size: 48794
+SHA256sum: c7b791c14658c2e5f1d0fff218978bbd1088556fe8f7f4c6e46da9d73df5cded
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
