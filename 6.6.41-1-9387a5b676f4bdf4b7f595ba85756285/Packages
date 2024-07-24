@@ -74,10 +74,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 47824
+Installed-Size: 47825
 Filename: base-files_1-r24012-d8dd03c46f_x86_64.ipk
-Size: 48834
-SHA256sum: 34192a4308873061cb0fe28ad865425ecf67dddce2b2375979702e91ca62f9d0
+Size: 48837
+SHA256sum: 7e67c35dc1a6bbb6c74e2f455850286c38f6a1cf045636479e92bc2d0ffe76ce
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -14282,10 +14282,10 @@ Version: 6.6.41-6
 Depends: libc, libelf1, libdw1, libpthread, librt, libstdcpp6, objdump, libbfd, libopcodes
 Section: devel
 Architecture: x86_64
-Installed-Size: 1600515
+Installed-Size: 1600743
 Filename: perf_6.6.41-6_x86_64.ipk
-Size: 1596233
-SHA256sum: 3efb4886943eed25aaab18ba09dfbc24db529b83448307133c7d3f4aecc017a1
+Size: 1596292
+SHA256sum: 287bb7f5982446c6748113473698b92cc1109aedceb2358c7e84ae5f21449184
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
