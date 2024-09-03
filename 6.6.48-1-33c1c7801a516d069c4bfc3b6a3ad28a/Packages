@@ -58,14 +58,14 @@ SHA256sum: b50f342e8a2cd2c3b040e719dc551af5c8f567f3b6a2f611ed3069e7e4e6271c
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-x86
-Version: 17
+Version: 18
 Depends: libc, lm-sensors, ethtool
 Section: opt
 Architecture: x86_64
-Installed-Size: 7674
-Filename: autocore-x86_17_x86_64.ipk
-Size: 8436
-SHA256sum: 6dc21b885f74b79d30f6e5b4450dd4b097b6d3091d1d7fc683f5c151e90ca8a9
+Installed-Size: 7688
+Filename: autocore-x86_18_x86_64.ipk
+Size: 8448
+SHA256sum: 777b90445ce7b0ac730565f7e87c6d0f3c95f13c660c695ef4f96d35b7856fc8
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
@@ -77,7 +77,7 @@ Architecture: x86_64
 Installed-Size: 47834
 Filename: base-files_1-r24012-d8dd03c46f_x86_64.ipk
 Size: 48846
-SHA256sum: b62bec89986f2039bc4474185d94366ea57fccac3512f89e26391cbcc95c4cd1
+SHA256sum: c12652cd1b6d3b5fdeef0b670f1321e42d082fdb8eb004ad4a68c248a342548b
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8379,6 +8379,18 @@ Filename: kmod-nat46_6.6.48+2022-09-19-4c5beee2-1_x86_64.ipk
 Size: 25589
 SHA256sum: 34b5b2913851975afec8f2cc8cf97eeb968b0f55ec45a5c5b78e9a8a06270ff4
 Description:  Stateless NAT46 translation kernel module
+
+Package: kmod-natflow
+Version: 6.6.48+20240812-1
+Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+License: GPL-2.0
+Section: kernel
+Architecture: x86_64
+Installed-Size: 88668
+Filename: kmod-natflow_6.6.48+20240812-1_x86_64.ipk
+Size: 88975
+SHA256sum: 254cfd17cbee273dc86da2836aab867891d7f990ad669962013772dd2d9e7c54
+Description:  fast nat forward kmod
 
 Package: kmod-natsemi
 Version: 6.6.48-1
