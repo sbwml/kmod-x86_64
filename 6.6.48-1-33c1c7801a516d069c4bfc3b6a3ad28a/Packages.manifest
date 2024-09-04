@@ -57,8 +57,8 @@ CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
 Installed-Size: 2905
 Filename: arptables-nft_1.8.8-2_x86_64.ipk
-Size: 3697
-SHA256sum: c01b3d9ac86222673fee6e38481443f8579430093cfba63551eb63aa53516491
+Size: 3698
+SHA256sum: 9bb47e8d16f38073f515c90e0faa70e34020e339a31e22f4a980997f75c5f730
 Description:  ARP firewall administration tool nft
 
 Package: ath9k-htc-firmware
@@ -100,10 +100,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1721166679
 Architecture: x86_64
-Installed-Size: 47834
+Installed-Size: 47833
 Filename: base-files_1-r24012-d8dd03c46f_x86_64.ipk
-Size: 48846
-SHA256sum: c12652cd1b6d3b5fdeef0b670f1321e42d082fdb8eb004ad4a68c248a342548b
+Size: 48842
+SHA256sum: a25d5c07df84c3de6ce7d935b79f03432feaf908de59e0dc52d01c7d69852589
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -116,10 +116,10 @@ Section: base
 SourceDateEpoch: 1721166679
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: x86_64
-Installed-Size: 23764
+Installed-Size: 23736
 Filename: block-mount_2023-02-28-bfe882d5-1_x86_64.ipk
-Size: 24440
-SHA256sum: bcbc09d03d111280af3732ea1f6848690db1cbb45d8977149883ee32f255674f
+Size: 24418
+SHA256sum: 7525f40d49e6d9afd7343d05f84c0c8933d1b4afcb8b2699723a820044974fb3
 Description:  Block device mounting and checking
 
 Package: blockd
@@ -260,10 +260,10 @@ Section: net
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:dropbear_ssh_project:dropbear_ssh
 Architecture: x86_64
-Installed-Size: 171386
+Installed-Size: 171505
 Filename: dropbear_2022.82-6_x86_64.ipk
-Size: 172171
-SHA256sum: fbd057d2a71a92715d8b5fd5926b6456610b6ec37bd38e91a2d8ac33619cc7a5
+Size: 172272
+SHA256sum: 144d5f4d6c553e5fc49e880da75971ca4f560e076b47685e83bb598c520dbd89
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: dropbearconvert
@@ -277,10 +277,10 @@ Section: utils
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:dropbear_ssh_project:dropbear_ssh
 Architecture: x86_64
-Installed-Size: 32983
+Installed-Size: 32986
 Filename: dropbearconvert_2022.82-6_x86_64.ipk
-Size: 33776
-SHA256sum: d611bae4e3b9da1a9b35f9963ae983704e3a2ec1dedc2589b422c4c98c2321cd
+Size: 33774
+SHA256sum: e22468be610e1cdd07b9e4e6bb3cc554537377cc097f55b38e82b498d5ab0019
 Description:  Utility for converting SSH keys
 
 Package: e100-firmware
@@ -310,10 +310,10 @@ Section: net
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 34555
+Installed-Size: 34554
 Filename: ebtables-nft_1.8.8-2_x86_64.ipk
-Size: 35323
-SHA256sum: 1d31791ff7b41f4551c765530740c90d488634a65e8372d697c0141da75f4a00
+Size: 35344
+SHA256sum: 4260e5f26c7e8e2fe86721aac8dfa00e9d78dde007b2a546983789d9b7ad043e
 Description:  Bridge firewall administration tool nft
 
 Package: edgeport-firmware
@@ -373,10 +373,10 @@ Section: utils
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
-Installed-Size: 499354
+Installed-Size: 499275
 Filename: grub2-bios-setup_2.06-5_x86_64.ipk
-Size: 498270
-SHA256sum: e6d29d37e81da51b62207819ae16a3cb4663924082de68b69a203a9bdf243fc3
+Size: 498243
+SHA256sum: 4826bf6fbe8dc00f8ddb64eac8ff1f0b435b03baaa6f80b7162a2d355f355c8b
 Description:  Set up images to bootable.
 
 Package: grub2-editenv
@@ -389,10 +389,10 @@ Section: utils
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:gnu:grub2
 Architecture: x86_64
-Installed-Size: 136234
+Installed-Size: 136378
 Filename: grub2-editenv_2.06-5_x86_64.ipk
-Size: 136892
-SHA256sum: 926b0ba0c7978d2893d7f3c255acabade63bf66a03e2b526c543416707808438
+Size: 137043
+SHA256sum: 715baaa8198929ec7e05495e5923eda32af889a2aa56ad6ec63aa09e0e242f99
 Description:  Edit grub2 environment files.
 
 Package: grub2-efi
@@ -469,8 +469,8 @@ CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
 Installed-Size: 13677
 Filename: ip6tables-extra_1.8.8-2_x86_64.ipk
-Size: 14404
-SHA256sum: 17b2270867c0b6a111923a1d9e3d01e2b44afe07bc97ceabb2d0d93c789b17c4
+Size: 14403
+SHA256sum: 6a1e4117aec6c7169b3c382145f3a5219f1c37a25e1803403ea84c402a00073d
 Description:  iptables header matching modules for IPv6
 
 Package: ip6tables-mod-nat
@@ -640,8 +640,8 @@ CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
 Installed-Size: 5869
 Filename: iptables-mod-filter_1.8.8-2_x86_64.ipk
-Size: 6650
-SHA256sum: a8fc26ec4c20a8a9006ce9123b1b2c65c5c0a1ac4a9c6cd9181f28e46b1793d7
+Size: 6640
+SHA256sum: 704f683d3827bf855e2f7771d49ab35ecca0245e9c225184e78d0f240cda28ee
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -660,10 +660,10 @@ Section: net
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 13004
+Installed-Size: 12973
 Filename: iptables-mod-hashlimit_1.8.8-2_x86_64.ipk
-Size: 13725
-SHA256sum: 53c11a1d52437c2f547cfe4394d5479e3cbf0e44c2f5bc146157dd9792b21a74
+Size: 13696
+SHA256sum: ba4af6465832e5a68338dfeac41c7d1d5c4eaf176d5eabbbefe7f16eadaf46af
 Description:  iptables extensions for hashlimit matching
  
  Matches:
@@ -1048,10 +1048,10 @@ SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:iucode-tool_project:iucode-tool
 Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
 Architecture: x86_64
-Installed-Size: 40756
+Installed-Size: 40754
 Filename: iucode-tool_2.3.1-2_x86_64.ipk
-Size: 41579
-SHA256sum: 9b96671ddb0b32f7e28ad11ee7535f9772df162387077c9621e18f89758459a4
+Size: 41574
+SHA256sum: a11852f4bf1b44cfeb7df87abb79826ddcb2e5678effb032a851ff594582c70e
 Description:  Intel microcode loader
 
 Package: kmod-3c59x
@@ -11028,22 +11028,6 @@ Size: 25589
 SHA256sum: 34b5b2913851975afec8f2cc8cf97eeb968b0f55ec45a5c5b78e9a8a06270ff4
 Description:  Stateless NAT46 translation kernel module
 
-Package: kmod-natflow
-Version: 6.6.48+20240812-1
-Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-Source: package/new/natflow
-SourceName: kmod-natflow
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1725338962
-Maintainer: Chen Minqiang <ptpt52@gmail.com>
-Architecture: x86_64
-Installed-Size: 88668
-Filename: kmod-natflow_6.6.48+20240812-1_x86_64.ipk
-Size: 88975
-SHA256sum: 254cfd17cbee273dc86da2836aab867891d7f990ad669962013772dd2d9e7c54
-Description:  fast nat forward kmod
-
 Package: kmod-natsemi
 Version: 6.6.48-1
 Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a)
@@ -18858,10 +18842,10 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 52447
+Installed-Size: 52455
 Filename: libgcc1_15.0.0-4_x86_64.ipk
-Size: 53308
-SHA256sum: 2b57f3e852411cb5ccab2505fac2664753feabb9294edbb8cfd2dea187a229e3
+Size: 53319
+SHA256sum: 3d005c7d8abfca0aa40300f7a977383a7f34793cad4266354a2c40a448c33ea9
 Description:  GCC support library
 
 Package: libip4tc2
@@ -18876,10 +18860,10 @@ SourceDateEpoch: 1721166679
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 13245
+Installed-Size: 13242
 Filename: libip4tc2_1.8.8-2_x86_64.ipk
-Size: 14012
-SHA256sum: 9677b6d0f432ddf15d124bbaecca852d7e454ceba10b7da8c4d8b45739207c35
+Size: 14004
+SHA256sum: 802f8f7308493396cd94c060b18cb100c88e74d6eb6dd97f937c53fc68a5189d
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc2
@@ -18894,10 +18878,10 @@ SourceDateEpoch: 1721166679
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 13436
+Installed-Size: 13433
 Filename: libip6tc2_1.8.8-2_x86_64.ipk
-Size: 14201
-SHA256sum: 4a9ee110a5e8a451507d91e09e08321a2d9049ca829762f788dbfcfc07374c49
+Size: 14198
+SHA256sum: bc011d3959309352cb9df66e591c7e953b87e78b699aa8b75d170a3b8abc0c12
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptext-nft0
@@ -18930,10 +18914,10 @@ SourceDateEpoch: 1721166679
 ABIVersion: 0
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 52613
+Installed-Size: 52614
 Filename: libiptext0_1.8.8-2_x86_64.ipk
-Size: 53390
-SHA256sum: 5a87c8d4ebf70b6e018d4a46ffdb2fcd538b4436650433e1ed25e7662041f05a
+Size: 53389
+SHA256sum: 2a6d7a7729ba969ad8f8151663d04ef46060eca4670e7045eb52f8f4b2ed8514
 Description:  IPv4 firewall - shared libiptext library
 
 Package: libiptext6-0
@@ -18986,10 +18970,10 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 124895
+Installed-Size: 124880
 Filename: libquadmath1_15.0.0-4_x86_64.ipk
-Size: 125752
-SHA256sum: 68a94b805504fb9ed1faaf1e2d2b040c175abe749383b4ae49d16c877c75905a
+Size: 125736
+SHA256sum: 77c1ba9917273568e2a90df8acc6967c4d10b6da6c713142c15f3c07f02d68c8
 Description:  Quadmath support library
 
 Package: librt
@@ -19023,10 +19007,10 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 666608
+Installed-Size: 666479
 Filename: libstdcpp6_15.0.0-4_x86_64.ipk
-Size: 664478
-SHA256sum: 3d0fbdb75f0b992f2c1edca0a59fe123e888d208d6cc1c05d012d1724676c744
+Size: 664364
+SHA256sum: 69a4f121b34af28a91a5f77fbb700b5ea3d4d0d9f66e475f4138d13f7a5d4131
 Description:  GNU Standard C++ Library v3
 
 Package: libxdp129
@@ -19043,8 +19027,8 @@ Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
 Installed-Size: 86264
 Filename: libxdp129_1.2.9-1_x86_64.ipk
-Size: 86088
-SHA256sum: 3b4b870b849c3e5d62879f911ee30f6b09df9d777c593e4a1124e619ee1b5e86
+Size: 86089
+SHA256sum: e6cbe2b1bff204b586ba2e73d719a39c02c84345959ba663ec504ea7f3f9bcaf
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -19059,10 +19043,10 @@ SourceDateEpoch: 1721166679
 ABIVersion: 12
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 26681
+Installed-Size: 26663
 Filename: libxtables12_1.8.8-2_x86_64.ipk
-Size: 27413
-SHA256sum: c1c2c4817f5dd4c61818d2c9de04bc6e32400131a0479a1f5ffe8064b304ab1b
+Size: 27399
+SHA256sum: d94048d072a8bbd31c776177d239baefae5be9f7c8678a97e49fd58490bc55f5
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mt7601u-firmware
@@ -19091,8 +19075,8 @@ SourceDateEpoch: 1721166679
 Architecture: x86_64
 Installed-Size: 13889
 Filename: mtd_26_x86_64.ipk
-Size: 14664
-SHA256sum: f0ecbb3acf51afeb39d9a2acb51b2adacae1705b14f4de86774183f6b21dd0ea
+Size: 14663
+SHA256sum: ac9a1929a1a2253a2bf3a53b5c8c4d9040779c1628c49c4437fb02fd13cff64f
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -19150,10 +19134,10 @@ Section: devel
 SourceDateEpoch: 1721166679
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 1597583
+Installed-Size: 1597920
 Filename: perf_6.6.48-6_x86_64.ipk
-Size: 1593360
-SHA256sum: ae00968d262b6a7f738fb333d48fdfad742e971366f3b92d921e21b87cfde636
+Size: 1593595
+SHA256sum: 2158f63ece068d10e96bc013b46c72d1ed7e7411a2f66bd18d8065dd8be69fa2
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -19166,10 +19150,10 @@ Section: utils
 SourceDateEpoch: 1721166679
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: x86_64
-Installed-Size: 25333
+Installed-Size: 25340
 Filename: qosify_2023-03-07-9a47ea4b-1_x86_64.ipk
-Size: 25808
-SHA256sum: d7936ae2a5531e8a91d380746bacda3437b0f2132d2754593a68ef1dd82ebe3b
+Size: 25838
+SHA256sum: 75169fe4fae891444cffdf8ebc1ce9b3f89a949bdadd0885eb4428c9924300ac
 Description:  A simple QoS solution based eBPF + CAKE
 
 Package: r8152-firmware
@@ -19499,10 +19483,10 @@ Section: net
 SourceDateEpoch: 1721166679
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: x86_64
-Installed-Size: 11681
+Installed-Size: 11689
 Filename: umbim_2022-08-13-146bc77c-24_x86_64.ipk
-Size: 12518
-SHA256sum: 6ee1c37e9b6d7bcc35e0381127b18cf5a1fb0474e3e5352ea16a3e6ce6fd6bd6
+Size: 12526
+SHA256sum: 82d44ada6de12cfa9d0b3c2bf805efe1cb53eae42a0775cee33ddcdb4c643ed6
 Description:  umbim is a command line tool for controlling mobile broadband modems using
  the MBIM-protocol.
 
@@ -19516,10 +19500,10 @@ Section: net
 SourceDateEpoch: 1721166679
 Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: x86_64
-Installed-Size: 46856
+Installed-Size: 46850
 Filename: uqmi_2022-10-20-c8c9f105-1_x86_64.ipk
-Size: 47670
-SHA256sum: cf26405f902824c949874b44aee8ea2ecb5800a773eee4bb4ea59a0cd791ca74
+Size: 47680
+SHA256sum: bef5bf17dc9b7fd41483230f1436b49725dc41fada6461bb768c4bdc97825501
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
@@ -19578,10 +19562,10 @@ Section: net
 SourceDateEpoch: 1721166679
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 41992
+Installed-Size: 41990
 Filename: xdp-filter_1.2.9-1_x86_64.ipk
-Size: 42814
-SHA256sum: 07f79ecb06fe909c8a841ad7a04d32125e1498547af2c4f71475fabaa70e825a
+Size: 42815
+SHA256sum: aaf6468cd227331b67b8863bc38dca07f6eb7dc23b360985fbed80a9048166db
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -19597,10 +19581,10 @@ Section: net
 SourceDateEpoch: 1721166679
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 34010
+Installed-Size: 34021
 Filename: xdp-loader_1.2.9-1_x86_64.ipk
-Size: 34824
-SHA256sum: 3f86eea4baf1c55f56e7e71e245b8a063b6831e042d8337c252d368a4df58373
+Size: 34839
+SHA256sum: 92189bfdfac4932e5a2ec77ca42151557028f05ae56f003a91d1a0e361553da4
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -19615,10 +19599,10 @@ Section: net
 SourceDateEpoch: 1721166679
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: x86_64
-Installed-Size: 42753
+Installed-Size: 42748
 Filename: xdpdump_1.2.9-1_x86_64.ipk
-Size: 43517
-SHA256sum: 46d63177c30b22228f6259dcc822fc9d4f42683f6008479c9a27369bdb04e9f5
+Size: 43491
+SHA256sum: 076e0d367462534274aa3d98d6cf4c4f19425fee8fe09a6dcf2a8297327b190c
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
@@ -19631,10 +19615,10 @@ Section: net
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 32053
+Installed-Size: 32052
 Filename: xtables-legacy_1.8.8-2_x86_64.ipk
-Size: 32748
-SHA256sum: 5cc864fd5fa7f945c4e8b58eed76e57b68e9b3354c0b726404045bd8d974859d
+Size: 32742
+SHA256sum: 4c28349ed39d4593085fcc3ffd5735b5648af4a9121153b9a78b7092765d4d08
 Description:  IP firewall administration tool
 
 Package: xtables-nft
@@ -19647,9 +19631,9 @@ Section: net
 SourceDateEpoch: 1721166679
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: x86_64
-Installed-Size: 98077
+Installed-Size: 98083
 Filename: xtables-nft_1.8.8-2_x86_64.ipk
-Size: 98707
-SHA256sum: 6960353363a79bce149b98f9533c2b2c3fb343a02692aca3cdff83cc310534c5
+Size: 98698
+SHA256sum: f01858054ef5a39d508ae2079251ca2127fa69e3a984944ab503fed7347e7629
 Description:  IP firewall administration tool nft
 
