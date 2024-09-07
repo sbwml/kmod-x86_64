@@ -74,10 +74,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 47834
+Installed-Size: 47833
 Filename: base-files_1-r24012-d8dd03c46f_x86_64.ipk
-Size: 48841
-SHA256sum: 81a87f2c312f6a408c085578db042e481fa4fb71c7445939658425f50fd0fa39
+Size: 48847
+SHA256sum: 6dfb648b00cd14d30166c1f980a4eca1a40a24f650bd9f09feb2d43ea5f0cfe7
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8380,6 +8380,18 @@ Size: 25588
 SHA256sum: fe9e5aa68eb45e52a5851410ff7803e5c9a49291f6663141c6b6cdf9978075e2
 Description:  Stateless NAT46 translation kernel module
 
+Package: kmod-natflow
+Version: 6.6.49+20240907-1
+Depends: kernel (=6.6.49-1-88fcbde1239500cf6185fb7f1b752a42), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+License: GPL-2.0
+Section: kernel
+Architecture: x86_64
+Installed-Size: 88268
+Filename: kmod-natflow_6.6.49+20240907-1_x86_64.ipk
+Size: 88648
+SHA256sum: a2b6af6af7a0dbd3b543173a1f9aa6b253a2bdb4421f7c5a610aecd12f98acad
+Description:  fast nat forward kmod
+
 Package: kmod-natsemi
 Version: 6.6.49-1
 Depends: kernel (=6.6.49-1-88fcbde1239500cf6185fb7f1b752a42)
@@ -14479,6 +14491,18 @@ Filename: mwl8k-firmware_20240610-1_x86_64.ipk
 Size: 193182
 SHA256sum: 537e9584a2dcfd262b38eee8e2cc124b6119c2f9f716beea98ae1f5c96de6eab
 Description:  Marvell 8366/8687 firmware
+
+Package: natflow
+Version: 20240907
+Depends: libc, ethtool, kmod-natflow
+License: GPL-2.0
+Section: net
+Architecture: x86_64
+Installed-Size: 943
+Filename: natflow_20240907_x86_64.ipk
+Size: 1679
+SHA256sum: d5e0fccc74b6d7c6f74a87487ad1f966b1d79efe7336f6e7dc244ea2dbc66247
+Description:  Natflow init script
 
 Package: perf
 Version: 6.6.49-6
