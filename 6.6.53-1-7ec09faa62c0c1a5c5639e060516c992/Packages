@@ -74,10 +74,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 47827
+Installed-Size: 47828
 Filename: base-files_1-r24106-10cc5fcd00_x86_64.ipk
-Size: 48839
-SHA256sum: d9174695ca67da43ae672f1d906568b2f594e5728f046f9b9747d0d070489b53
+Size: 48824
+SHA256sum: 376f95f0d216411b7148e1c6d63e994ba88e843d738bfa330aa147e80b7ea3fd
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -7775,10 +7775,10 @@ Depends: kernel (=6.6.53-1-7ec09faa62c0c1a5c5639e060516c992), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 80712
+Installed-Size: 80718
 Filename: kmod-mt76-core_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 80853
-SHA256sum: badae9e68f7767abd0d3f486d5ecd5fba5db0d6853220549b07825b67b0ad10c
+Size: 80882
+SHA256sum: 1a2b14e6796bfcf05a39efd5b1e3f777a6c1edb34fd88500fa120d402b57ef10
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -7801,8 +7801,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 30472
 Filename: kmod-mt76-usb_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 31275
-SHA256sum: b497ba53970040dedd14d0848bb297fd36bae7accfd7ea6a7058b9b880f87606
+Size: 31276
+SHA256sum: 387e2a9da918ad39fcd155887603d839e46eb2335b000f7acfb324ec8ee432e1
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
@@ -7823,10 +7823,10 @@ Depends: kernel (=6.6.53-1-7ec09faa62c0c1a5c5639e060516c992), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 138877
+Installed-Size: 138887
 Filename: kmod-mt7603_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 139285
-SHA256sum: 4ff9701c242bc144dcad1175f50cfe06763a3be6c320f79059d6615f7d071f38
+Size: 139308
+SHA256sum: c5396207ffe94dcb9569471f33523809711aad88c51d82f895a0420d2d4acd5b
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -7837,8 +7837,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 100075
 Filename: kmod-mt7615-common_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 100036
-SHA256sum: 70d9146922c935459dee1dc07def797b10b2f4c777b5070fc3e6b46392911734
+Size: 100049
+SHA256sum: f1116960566c53e582c3f4ec0475d85da844a5c7d5af63b7e647e812eff55683
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -7970,7 +7970,7 @@ Architecture: x86_64
 Installed-Size: 64211
 Filename: kmod-mt76x02-common_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
 Size: 64744
-SHA256sum: 8685d5ef69ce374fa6acb3f395579162f7dd0cb13336105e8b4f02802a6c2deb
+SHA256sum: d03cad3a6a2e5e2887f7753be30d198ce5a699407f4c0f48f94933b71dc1595b
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
