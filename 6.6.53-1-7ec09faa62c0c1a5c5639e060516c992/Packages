@@ -64,8 +64,8 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 7688
 Filename: autocore-x86_18_x86_64.ipk
-Size: 8453
-SHA256sum: fe74f51996006eb69be2d65f87f6a317c86f81814352bf49125679b1d541f56a
+Size: 8457
+SHA256sum: 405729a7d50e40ed4524cb2322c8787c929c8553f940c0d29b2173b8d7ba9fcb
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
@@ -76,8 +76,8 @@ Section: base
 Architecture: x86_64
 Installed-Size: 47828
 Filename: base-files_1-r24106-10cc5fcd00_x86_64.ipk
-Size: 48824
-SHA256sum: 376f95f0d216411b7148e1c6d63e994ba88e843d738bfa330aa147e80b7ea3fd
+Size: 48840
+SHA256sum: 41e961f36643903a30444f813a0463e17ad43b1ad9bd21d3685fcf877079a09f
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -8231,10 +8231,10 @@ Depends: kernel (=6.6.53-1-7ec09faa62c0c1a5c5639e060516c992), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2293884
+Installed-Size: 2294439
 Filename: kmod-mt7992-23-firmware_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 2295144
-SHA256sum: a3736ea7b8e1526c4395dd032cb444ddfcdfd468918afa081d317ffca325856d
+Size: 2295688
+SHA256sum: 1c4f0fb1bddaa9717f583ec7fb67f9388c06c97f13618c38888a79831735ef56
 Description:  MediaTek MT7996 firmware (2+3 antenna variant)
 
 Package: kmod-mt7992-firmware
@@ -8243,10 +8243,10 @@ Depends: kernel (=6.6.53-1-7ec09faa62c0c1a5c5639e060516c992), kmod-mac80211, kmo
 License: GPLv2
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2334073
+Installed-Size: 2334795
 Filename: kmod-mt7992-firmware_6.6.53+2024-09-29-680bc70f-1_x86_64.ipk
-Size: 2335323
-SHA256sum: 718abe5920cb6949a5e2a9a72ba67e5e2187f057add5cedb2b51e589cc363247
+Size: 2336029
+SHA256sum: 611f9df050c54bcd25e43a02d994dc2b3c98d3d691fe476dd4d189e2d4318ebe
 Description:  MediaTek MT7992 firmware
 
 Package: kmod-mt7996-233-firmware
