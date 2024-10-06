@@ -74,10 +74,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 47826
+Installed-Size: 47828
 Filename: base-files_1-r24106-10cc5fcd00_x86_64.ipk
-Size: 48833
-SHA256sum: 27fbf58080fe10fdfcf8abd9362d47ef26599913e9df6bff6b6811ab11ba495e
+Size: 48836
+SHA256sum: 26f9ee5a423b8c41347fa863bf5e93bcc59878fbbb6f25c45b0beb156edf6f15
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -11460,10 +11460,10 @@ Depends: kernel (=6.6.54-1-d7d17440beb683eb23ac31eaf1534f1a), kmod-ipt-conntrack
 Conflicts: kmod-shortcut-fe-drv
 Section: kernel
 Architecture: x86_64
-Installed-Size: 9928
+Installed-Size: 9929
 Filename: kmod-shortcut-fe-cm_6.6.54-8_x86_64.ipk
-Size: 10671
-SHA256sum: 7a02303af2eac4eec3e174fda21f57b8f24acd02e9b788ade6137fa276e3e895
+Size: 10670
+SHA256sum: b93f83c5e643a2c4d9610b5a8488f8d2cc4efc15f48a2f91e38b30b350d0ebe6
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -11472,10 +11472,10 @@ Depends: kernel (=6.6.54-1-d7d17440beb683eb23ac31eaf1534f1a), kmod-nf-conntrack
 Provides: shortcut-fe
 Section: kernel
 Architecture: x86_64
-Installed-Size: 34282
+Installed-Size: 34482
 Filename: kmod-shortcut-fe_6.6.54-8_x86_64.ipk
-Size: 35112
-SHA256sum: 32d99b5720c07b83e1a80df310b36c2e41c5f77a350cee32bb17c66b49806261
+Size: 35236
+SHA256sum: 0e5845c8bcabc39260a802720e78afcf03a4e543281de695c8d7cde8c9926558
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
